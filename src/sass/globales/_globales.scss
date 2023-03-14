@@ -1,0 +1,40 @@
+@import '_variables';
+
+html {
+  font-size: 62.5%; /* =10px */
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Establece el tamaño base en 10px lo que facilita la conversión */
+
+body {
+  font-size: 1.8rem; /* =16px */
+  background-color: $white;
+  font-family: $font;
+}
+
+// .bg {
+//   background-image: url('../../public/image/mobile-design.jpg');
+//   background-repeat: no-repeat;
+// }
+
+// .card {
+//   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+//   border-radius: 2rem;
+//   width: 650px;
+// }
+
+// .card_container {
+//   margin: 0;
+//   display: flex;
+//   justify-content: space-between;
+// }
+// .card {
+//   box-shadow: ;
+// }
