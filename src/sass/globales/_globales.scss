@@ -23,12 +23,32 @@ body {
 //   background-image: url('../../public/image/mobile-design.jpg');
 //   background-repeat: no-repeat;
 // }
-
-// .card {
-//   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-//   border-radius: 2rem;
-//   width: 650px;
+// .bg {
+//   background-image: url('../../public/image/desktop-design.jpg');
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-position: center;
 // }
+
+@media (min-width: 800px) {
+  .card {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+}
+
+@media (min-width: 800px) {
+  .card_container {
+    display: flex;
+    box-shadow: $light-lavender 12px 12px 30px;
+    border-radius: 3rem;
+    width: 73.5rem;
+    height: 51rem;
+  }
+}
+
 
 // .card_container {
 //   margin: 0;
